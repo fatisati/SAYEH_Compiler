@@ -471,8 +471,8 @@ public class CodeGeneratoe {
 
 	public static void main(String[] args) {
 
-		//String ccode = "int a = 2 + 3;if ( a == 5 );a = a - 7";
-		String ccode = "int a = 5 + 2;int b = 3 * 4";
+		String ccode = "int a = 1;if ( a == 10 );a = a + 1";
+		//String ccode = "int a = 10 - 7";
 		CodeGeneratoe cg = new CodeGeneratoe(0);
 
 		// read code from file
